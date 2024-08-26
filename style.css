@@ -1,0 +1,19 @@
+body {
+  font-family: "Segoe UI Emoji", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+#emojis {
+  font-size: 30px; /* Adjust the size of the emojis */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  gap: 10px;
+  width: 100%;
+  max-width: 1200px;
+}
